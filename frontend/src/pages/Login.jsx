@@ -18,7 +18,7 @@ const Login = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (currentUser) return navigate("/dashboard");
+    if (currentUser) return navigate("/admin");
     if (currentMsg) {
       toast.warn(currentMsg);
       dispatch(setMsg(null));
