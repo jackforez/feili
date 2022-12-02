@@ -35,7 +35,7 @@ const Login = () => {
         password,
       });
       dispatch(loginSuccess(res.data));
-      navigate("/dashboard");
+      navigate("/admin");
     } catch (err) {
       dispatch(loginFailure());
       err.response
