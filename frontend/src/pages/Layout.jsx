@@ -10,20 +10,22 @@ import Phongban from "./Phongban";
 import Tongquan from "./Tongquan";
 
 const Layout = () => {
-  return <div>
-    <Sidebar/>
-    <div>
-      <Routes>
-        <Route index element ={<Tongquan/>}/>
-        <Route path="chuc-vu" element ={<Chucvu/>}/>
-        <Route path="phong-ban" element ={<Phongban/>}/>
-        <Route path="nhan-su" element ={<Nhansu/>}/>
-        <Route path="cham-cong" element ={<Chamcong/>}/>
-        <Route path="bang-luong" element ={<Bangluong/>}/>
-        <Route path="luong-thue" element ={<Luongthue/>}/>
-      </Routes>
+  return (
+    <div className="flex w-full">
+      <Sidebar />
+      <div className="flex-1 p-3">
+        <Routes>
+          <Route path="/" element={<Tongquan />} />
+          <Route path="chuc-vu" element={<Chucvu />} />
+          <Route path="phong-ban" element={<Phongban />} />
+          <Route path="nhan-su" element={<Nhansu />} />
+          <Route path="cham-cong" element={<Chamcong />} />
+          <Route path="bang-luong" element={<Bangluong />} />
+          <Route path="luong-thue" element={<Luongthue />} />
+        </Routes>
+      </div>
     </div>
-  </div>;
+  );
 };
 
 export default Layout;
