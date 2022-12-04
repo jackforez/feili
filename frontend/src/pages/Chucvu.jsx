@@ -1,73 +1,81 @@
 import React from "react";
 const tmpChucvu = [
   { id: 1, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
-  { id: 1, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
-  { id: 1, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
-  { id: 1, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
+  { id: 2, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
+  { id: 3, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
+  { id: 4, vn: "Phó Giám Đóc", cn: "bac", phongban: 1 },
 ];
 const Chucvu = () => {
-  return <div>
-    <div className="flex flex-col">
-  <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-    <div className="py-4 inline-block min-w-full sm:px-6 lg:px-8">
-      <div className="overflow-hidden">
-        <table className="min-w-full text-center">
-          <thead className="border-b bg-gray-800">
-            <tr>
-              <th scope="col" className="text-sm font-medium text-white px-6 py-4">
-                #
-              </th>
-              <th scope="col" className="text-sm font-medium text-white px-6 py-4">
-                First
-              </th>
-              <th scope="col" className="text-sm font-medium text-white px-6 py-4">
-                Last
-              </th>
-              <th scope="col" className="text-sm font-medium text-white px-6 py-4">
-                Handle
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">1</td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Mark
-              </td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Otto
-              </td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @mdo
-              </td>
-            </tr>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">2</td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Jacob
-              </td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                Thornton
-              </td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @fat
-              </td>
-            </tr>
-            <tr className="bg-white border-b">
-              <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">3</td>
-              <td colspan="2" className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-center">
-                Larry the Bird
-              </td>
-              <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                @twitter
-              </td>
-            </tr>
-          </tbody>
-        </table>
+  return 
+  <div class="flex flex-col">
+    <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+      <div class="py-2 inline-block min-w-full sm:px-6 lg:px-8">
+        <div class="overflow-x-auto">
+          <table class="min-w-full">
+            <thead class="border-b">
+              <tr>
+                <th
+                  scope="col"
+                  class="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                >
+                  #
+                </th>
+                <th
+                  scope="col"
+                  class="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                >
+                  VN
+                </th>
+                <th
+                  scope="col"
+                  class="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                >
+                  CN
+                </th>
+                <th
+                  scope="col"
+                  class="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                >
+                  Phòng ban
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b">
+                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                  1
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                  Cell
+                </td>
+              
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
-  </div>
-</div>
   </div>;
 };
 
